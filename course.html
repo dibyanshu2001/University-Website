@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="my.css">
+</head>
+<body>
+<!-- -------------header----------------> 
+    <section class="about-header Course-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png"> </a>
+            <div class="nav-links" id="navlink">
+                <i class="fas fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Course</h1>
+    </section>
+<!-- -------------COURSE---------------->
+<section class="course">
+    <h1>Course We Offer</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, ab.</p>
+<div class="row">
+    <div class="course-col">
+        <h3>Intermdiate</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, tenetur! Aut voluptatum ex, magnam facilis sapiente et animi repudiandae labore.</p>
+     </div>
+     <div class="course-col">
+        <h3>Degree</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, tenetur! Aut voluptatum ex, magnam facilis sapiente et animi repudiandae labore.</p>
+     </div>
+     <div class="course-col">
+        <h3>Post Graduation</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, tenetur! Aut voluptatum ex, magnam facilis sapiente et animi repudiandae labore.</p>
+     </div>
+</div>
+</section>
+    <!-- -------------facility----------------> 
+    <section class="facility">
+        <h1>Our Facility</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, quod?</p>
+        <div class="facility-row">
+            <div class="facility-col">
+                <img src="image/library.png">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat amet, est excepturi ratione magni ipsa?</p>
+            </div>
+            <div class="facility-col">
+              <img src="image/basketball.png">
+              <h3>Largest Play Ground</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat amet, est excepturi ratione magni ipsa?</p>
+          </div>
+          <div class="facility-col">
+              <img src="image/cafeteria.png">
+              <h3>Tasty And Healthy Food</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat amet, est excepturi ratione magni ipsa?</p>
+          </div>
+        </div>
+    </section>
+<!-- -------------footer---------------->
+<section class="footer">
+    <h1>About Us</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iusto assumenda<br> voluptatum pariatur harum et.</p>
+    <div class="icon">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fas fa-heart"></i> by ANIGAR</p>
+</section>
+
+<script>
+var navlinks=document.getElementById("navlink");
+function showmenu(){
+    navlinks.style.right="0";
+}
+function hidemenu(){
+    navlinks.style.right="-200px";
+}
+</script>  
+</body>
+</html>
